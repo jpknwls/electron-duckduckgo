@@ -1,0 +1,19 @@
+{
+   "name": "myproject",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+     "start": "cross-env NODE_ENV=development electron index.js",
+     "startp": "cross-env NODE_ENV=production electron index.js",
+     "pack": "build --dir",
+     "dist": "build"
+   },
+   "author": "",
+   "license": "MIT",
+   "devDependencies": {
+     "cross-env": "^5.0.1",
+     "electron": "^1.6.11",
+     "electron-builder": "^19.4.2"
+   }
+ }
